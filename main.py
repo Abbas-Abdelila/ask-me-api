@@ -32,7 +32,7 @@ def generate_response(prompt: Prompt):
     
     prompt_text = prompt.prompt
     model_engine = "text-davinci-003"
-    max_tokens = 500
+    max_tokens = 80
     temperature = 0.7
 
     response = openai.Completion.create(
